@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  :root{
+      --letterspacing: 1px;
+      --lbltextcolor: black;
+  }
+  body {
+          background:  url("back1.png") bottom no-repeat fixed, linear-gradient(to top left, #0066ff 0%, #ff33cc 100%) ;
+          background-repeat: no-repeat;
+          background-size: 80% 270px, auto;
+          font-family: 'Ubuntu', sans-serif;
+      }
+          .main {
+          background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+          width: 400px;
+          height: 430px;
+          margin: 7.1em auto;
+          border-radius: 1.3em;
+          box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.35), 2px 2px 20px 20px rgba(0, 0, 0, 0.3);
+      }
+          .sign {
+              margin-bottom: 0;
+          padding-top: 40px;
+          color: black;
+          font-family: 'Ubuntu', sans-serif;
+          font-weight: bold;
+          font-size: 23px;
+      }
+          .email {
+      width: 76%;
+      color: var(--lbltextcolor));
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: var(--letterspacing);
+      background: rgba(204, 153, 255, 0.1);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      box-sizing: border-box;
+      border: 2px solid rgba(0, 0, 0, 0.25);
+      margin-bottom: 50px;
+      margin-left: 46px;
+      text-align: center;
+      margin-bottom: 27px;
+      font-family: 'Ubuntu', sans-serif;
+      }
+      
+      form.form1 {
+          padding-top: 40px;
+      }
+          .pass {
+      width: 76%;
+      color: var(--lbltextcolor));
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: var(--letterspacing);
+      background: rgba(204, 153, 255, 0.1);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      box-sizing: border-box;
+      border: 2px solid rgba(0, 0, 0, 0.25);
+      margin-bottom: 50px;
+      margin-left: 46px;
+      text-align: center;
+      margin-bottom: 27px;
+      font-family: 'Ubuntu', sans-serif;
+      }
+      
+      .email:focus, .pass:focus {
+          border: 2px solid rgba(0, 0, 0, 0.5) !important;
+          
+      }
+          .submit {
+        cursor: pointer;
+          border-radius: 5em;
+          color: #fff;
+          background: linear-gradient(to bottom right, #0066ff 0%, #ff33cc 100%);
+          border: 2px solid rgba(0, 0, 0, 0.25);
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          font-family: 'Ubuntu', sans-serif;
+          margin-left: 35%;
+          font-size: 13px;
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+      }
+      
+      .forgot {
+          text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+          color: black;
+          padding-top: 20px;
+      }
+      .forgot3 {
+          text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+          color: black;
+          padding-top: 0;
+      }
+       .forgot2 {
+          text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+          color: black;
+          padding-bottom: 40px;
+      }
+      a {
+          text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+          color: #585858;
+          text-decoration: none
+      }
+      
+      @media (max-width: 600px) {
+          .main {
+              border-radius: 0px;
+          }
+        }
